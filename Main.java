@@ -58,6 +58,7 @@ public class Main{
             }
         });
         main_frame.setLayout(null);
+        main_frame.setResizable(false);
         main_frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         main_frame.setVisible(true);
     }
